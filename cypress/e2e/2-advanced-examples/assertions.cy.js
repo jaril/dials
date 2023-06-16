@@ -2,7 +2,7 @@
 
 context('Assertions', () => {
   beforeEach(() => {
-    cy.visit('https://example.cypress.io/commands/assertions')
+    cy.visit('/commands/assertions')
   })
 
   describe('Implicit Assertions', () => {

@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "cypress open"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.3",
@@ -20,7 +21,7 @@
     "@replayio/cypress": "^1.0.2",
     "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.2",
-    "cypress": "^10.11.0",
+    "cypress": "^12.14.0",
     "eslint": "8.9.0",
     "eslint-config-next": "12.0.10",
     "postcss": "^8.4.6",

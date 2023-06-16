@@ -5,7 +5,7 @@ module.exports = defineConfig({
 	projectId: 'y3akbv',
 	video: false,
 	e2e: {
-		baseUrl: 'http://localhost:3000',
+		baseUrl: 'https://example.cypress.io',
 		setupNodeEvents(on, config) {
 			// implement node event listeners here
 			cypressReplay.default(on, config);
